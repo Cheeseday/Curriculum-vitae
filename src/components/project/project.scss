@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.project {
+
+    p {
+        color: $secondary-text-color;
+    }
+    .project_description {
+        font-weight: 300;
+    }
+    .project_stack {
+        margin: 0;
+        font-weight: 300;
+    }
+}

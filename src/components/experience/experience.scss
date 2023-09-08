@@ -1,0 +1,19 @@
+@import '../../variables.scss';
+
+.article {
+    margin-bottom: 15px;
+}
+
+.article_name {
+    margin: 20px 0;
+    
+    color: $title-color;
+}
+
+.article_descr {
+    margin: 10px 0;
+}
+
+.duration span {
+    font-weight: 300;
+}
