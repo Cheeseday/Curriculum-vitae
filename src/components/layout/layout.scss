@@ -1,22 +1,18 @@
 .layout{
-    // display: flex;
-    // justify-content: center;
-    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0 auto;
-    width: 1024px;
-
-
-    // text-align: center;
+    border: 2px solid black;
 }
 
 .content {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    // flex-grow: 2;
 
-    width: 100%;
-    padding: 0 40px;
+    width: 124px;
+    padding: 30px 40px;
 
     &:first-child {
         width: 30%;

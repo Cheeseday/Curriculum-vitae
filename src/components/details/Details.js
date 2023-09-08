@@ -5,11 +5,13 @@ export const Details = (props) => {
 
     return(
         <div className="details">
-            <h2>
-                Details
-            </h2>
+            <h1>
+                {props.blockName}
+            </h1>
             <div className="address">
-                Address
+                <b>
+                    Address
+                </b>
                 <br/>
                 <span>{props.details.address.country}</span>
                 <br/>
@@ -17,13 +19,17 @@ export const Details = (props) => {
             </div>
 
             <div className="phone">
-                Phone
+                <b>
+                    Phone
+                </b>
                 <br/>
                 <span>{props.details.phone}</span>
             </div>
 
             <div className="email">
-                Email
+                <b>
+                    Email
+                </b>
                 <br/>
                 <span>{props.details.email}</span>
             </div>

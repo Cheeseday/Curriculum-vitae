@@ -1,34 +1,45 @@
 import React from "react";
 import './skills.scss';
 
-export const Skills = () => {
+export const Skills = (props) => {
 
 
     return(
         <div className="skills">
-            <h2>
-                Skills
-            </h2>
+            <h1>
+                {props.blockName}
+            </h1>
             <p>
-                JavaScript
+                <b>JavaScript</b>
+                <span>Expert</span>
             </p>
             <p>
-                HTML & CSS
+                <b>HTML & CSS</b>
+                <span>Expert</span>
             </p>
             <p>
-                SASS
+                <b>SASS</b>
+                <span>Expert</span>
             </p>
             <p>
-                React
+                <b>React</b>
+                <span>Experienced</span>
             </p>
             <p>
-                TypeScript
+                <b>TypeScript</b>
+                <span>Experienced</span>
             </p>
             <p>
-                Node.js
+                <b>Bootstrap</b>
+                <span>Experienced</span>
             </p>
             <p>
-                Nest.js
+                <b>Node.js</b>
+                <span>Skillful</span>
+            </p>
+            <p>
+                <b>Nest.js</b>
+                <span>Skillful</span>
             </p>
         </div>
     )

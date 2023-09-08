@@ -1,10 +1,15 @@
-$color: #59B59C;
-
+@import '../../variables.scss';
 
 .links {
-    color: $color;
+    font-weight: 500;
+    color: $title-color;
 }
+
 a {
-    color: $color;
+    display: block;
+
+    margin: 7px 0;
+
+    color: $title-color;
     text-decoration: none;
 }

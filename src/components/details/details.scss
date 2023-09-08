@@ -1,3 +1,22 @@
+@import '../../variables.scss';
+
+.details {
+    h1 {
+        color: $title-color;
+    }
+    span {
+        font-weight: 300;
+        color: $secondary-text-color;
+    }
+    div{
+        margin-bottom: 14px;
+
+        b {
+            margin-bottom: 10px;
+        }
+    }
+}
+
 span {
-    color: rgb(93, 93, 93);
+    color: $secondary-text-color;
 }
