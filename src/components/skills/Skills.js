@@ -3,44 +3,38 @@ import './skills.scss';
 
 export const Skills = (props) => {
 
-
-    return(
-        <div className="skills">
-            <h1>
-                {props.blockName}
-            </h1>
-            <p>
-                <b>JavaScript</b>
-                <span>Expert</span>
-            </p>
-            <p>
-                <b>HTML & CSS</b>
-                <span>Expert</span>
-            </p>
-            <p>
-                <b>SASS</b>
-                <span>Expert</span>
-            </p>
-            <p>
-                <b>React</b>
-                <span>Experienced</span>
-            </p>
-            <p>
-                <b>TypeScript</b>
-                <span>Experienced</span>
-            </p>
-            <p>
-                <b>Bootstrap</b>
-                <span>Experienced</span>
-            </p>
-            <p>
-                <b>Node.js</b>
-                <span>Skillful</span>
-            </p>
-            <p>
-                <b>Nest.js</b>
-                <span>Skillful</span>
-            </p>
-        </div>
-    )
+  return(
+    <div className="skills">
+      <h1>
+        {props.blockName}
+      </h1>
+      <div>
+        <b>JavaScript</b>
+      </div>
+      <div>
+        <b>HTML & CSS</b>
+      </div>
+      <div>
+        <b>SASS</b>
+      </div>
+      <div>
+        <b>React</b>
+      </div>
+      <div>
+        <b>TypeScript</b>
+      </div>
+      <div>
+        <b>Bootstrap</b>
+      </div>
+      <div>
+        <b>Node.js / Nest.js</b>
+      </div>
+      <div>
+        <b>Git</b>
+      </div>
+      <div>
+        <b>Webpack / Parcel</b>
+      </div>
+    </div>
+  )
 }

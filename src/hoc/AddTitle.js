@@ -4,8 +4,8 @@ export const AddTitle = (Component, className) => {
   return (props) => {
     return(
         <>
-            <h1>{props.title}</h1>
-            <Component />
+          <h1>{props.title}</h1>
+          <Component />
         </>
     )
   }

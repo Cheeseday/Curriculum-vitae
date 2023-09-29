@@ -1,15 +1,14 @@
 @import '../../variables.scss';
 
 .links {
-    font-weight: 500;
-    color: $title-color;
-}
+  color: $title-color;
 
-a {
+  a {
     display: block;
 
     margin: 7px 0;
 
     color: $title-color;
     text-decoration: none;
+  }
 }

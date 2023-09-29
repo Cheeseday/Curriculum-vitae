@@ -1,16 +1,15 @@
 @import '../../variables.scss';
 
 .skills {
-    
-    h1 {
-        color: $title-color;
-    }
-    p {
-        display: flex;
-        justify-content: space-between;
-    }
-    span {
-        font-weight: 300;
-        color: rgb(93, 93, 93);
-    }
+
+  span {
+    font-weight: 300;
+    color: $secondary-text-color;
+  }
+  & > div {
+    display: flex;
+    justify-content: space-between;
+  
+    margin: 17px 0;
+  }
 }

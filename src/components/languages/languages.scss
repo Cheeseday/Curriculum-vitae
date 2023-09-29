@@ -2,15 +2,12 @@
 
 .languages {
 
-    h1 {
-        color: $title-color;
-    }
-    span {
-        font-weight: 300;
-        color: $secondary-text-color;
-    }
-    p {
-        display: flex;
-        justify-content: space-between;
-    }
+  span {
+    font-weight: 300;
+    color: $secondary-text-color;
+  }
+  p {
+    display: flex;
+    justify-content: space-between;
+  }
 }

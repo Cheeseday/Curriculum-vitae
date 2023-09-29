@@ -2,14 +2,22 @@
 
 .project {
 
-    p {
-        color: $secondary-text-color;
-    }
-    .project_description {
-        font-weight: 300;
-    }
-    .project_stack {
-        margin: 0;
-        font-weight: 300;
-    }
+  p {
+    color: $secondary-text-color;
+  }
+  .project_description {
+    margin: 8px 0;
+
+    font-weight: 300;
+  }
+  .project_stack {
+    margin: 0;
+      
+    font-weight: 300;
+  }
+  .project_name {
+    margin: 13px 0;
+
+    font-size: 21px;
+  }
 }
